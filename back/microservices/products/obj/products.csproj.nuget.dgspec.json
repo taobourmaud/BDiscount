@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/products.csproj": {}
+    "/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/products.csproj": {}
   },
   "projects": {
-    "/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/products.csproj": {
+    "/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/products.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/products.csproj",
+        "projectUniqueName": "/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/products.csproj",
         "projectName": "products",
-        "projectPath": "/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/products.csproj",
+        "projectPath": "/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/products.csproj",
         "packagesPath": "/Users/louisteilliais/.nuget/packages/",
-        "outputPath": "/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/",
+        "outputPath": "/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/louisteilliais/.nuget/NuGet/NuGet.Config"
@@ -41,6 +41,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.13, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.13, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
