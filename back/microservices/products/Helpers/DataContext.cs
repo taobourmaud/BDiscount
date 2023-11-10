@@ -1,19 +1,19 @@
-using back.microservices.products.Entities;
 using Microsoft.EntityFrameworkCore;
+using products.Models;
 
 public class DataContext : DbContext
 {
-    protected readonly IConfiguration Configuration;
+    private readonly IConfiguration _configuration;
 
     public DataContext(IConfiguration configuration)
     {
-        Configuration = configuration;
+        _configuration = configuration;
     }
 
     protected override void OnConfiguring(DbContextOptionsBuilder options)
     {
-        options.UseNpgsql(Configuration.GetConnectionString("Default"));
+        options.UseNpgsql(_configuration.GetConnectionString("Default"));
     }
+    public DbSet<ProductModel> Products { get; set; }
 
-    public DbSet<ProductEntity> Products { get; set; }
 }

@@ -1452,11 +1452,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/products.csproj",
+      "projectUniqueName": "/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/products.csproj",
       "projectName": "products",
-      "projectPath": "/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/products.csproj",
+      "projectPath": "/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/products.csproj",
       "packagesPath": "/Users/louisteilliais/.nuget/packages/",
-      "outputPath": "/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/",
+      "outputPath": "/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/louisteilliais/.nuget/NuGet/NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9TO3L7ULaII5RO+ic/APicd3ibptqHYO075B2zg6bg1aiVJVerdnW81DMy2X2l/z7CjyCusKy1LP7jtL92ZUPw==",
+  "dgSpecHash": "2w+yWh6+Og86Pvx2tF+u/CRMwZeUkD6UyN9K21fN6Vhiq1kfsK8egX+fqEvmGtaqbJ0gG8oKhTgKZBpkcecVwA==",
   "success": true,
-  "projectFilePath": "/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/products.csproj",
+  "projectFilePath": "/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/products.csproj",
   "expectedPackageFiles": [
     "/Users/louisteilliais/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/louisteilliais/.nuget/packages/microsoft.aspnetcore.openapi/7.0.13/microsoft.aspnetcore.openapi.7.0.13.nupkg.sha512",

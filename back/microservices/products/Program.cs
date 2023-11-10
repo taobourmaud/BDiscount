@@ -1,4 +1,7 @@
+using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
+using Microsoft.EntityFrameworkCore;
 using products;
+using products.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,8 +12,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddScoped<IHelloWorld, HelloWorld>();
+builder.Services.AddScoped<IProduct, ProductService>();
+//IConfiguration _configuration = null;
 
+/*
+builder.Services.AddControllersWithViews();
+    builder.Services.AddSession();
+    builder.Services.AddScoped<IProduct, ProductService>();
+    builder.Services.AddDbContext<DataContext>(options =>
+        options.UseNpgsql(_configuration.GetConnectionString("Default")));
+    builder.Services.AddMemoryCache();*/
 
 var app = builder.Build();
 
