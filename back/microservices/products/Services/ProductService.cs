@@ -1,18 +1,19 @@
 using products.Models;
+using products.Repository.Interfaces;
+using products.Services.Interfaces;
 
 namespace products.Services;
 
-public class ProductService : IProduct
+public class ProductService : IProductService
 {
-    private readonly DataContext _dbContext;
+    private readonly IProductRepository _productRepository;
 
-    public ProductService(DataContext dbContext)
+   public ProductService(IProductRepository productRepository)
     {
-        _dbContext = dbContext;
+        _productRepository = productRepository ?? throw new ArgumentNullException(nameof(productRepository));;
     }
-
-    public List<ProductModel> GetProducts()
-    {
-        return _dbContext.Products.ToList();
+    public async Task<List<Product>> GetProducts()
+    { 
+        return await _productRepository.GetAllProducts();
     }
 }

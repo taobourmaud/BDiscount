@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using products.Models;
+using products.Services.Interfaces;
 
 namespace products.Controllers;
 
@@ -6,17 +8,17 @@ namespace products.Controllers;
 [Route("api/products")]
 public class ProductController : ControllerBase
 {
-    private readonly IProduct _product;
+    private readonly IProductService _productService;
 
-    public ProductController(IProduct product)
+    public ProductController(IProductService productService)
     {
-        _product = product;
+        _productService = productService;
     }
 
     [HttpGet]
-    public IActionResult GetAllProducts()
+    public async Task<IActionResult> GetAllProducts()
     {
-        var allProducts = _product.GetProducts();
-        return Ok(allProducts);
+        List<Product> products = await _productService.GetProducts();
+        return Ok(products);
     }
 }
