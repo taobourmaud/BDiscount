@@ -7,6 +7,7 @@ namespace back.microservices.products.Entities;
 public class ProductEntity : BaseEntity
 {
     [Key]
+    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     [Column(name: "product_id")]
     public int ProductId { get; set; }
 

@@ -1,6 +1,4 @@
-
 using Microsoft.EntityFrameworkCore;
-using products.Models;
 using products.Repository;
 using products.Repository.Interfaces;
 using products.Services;

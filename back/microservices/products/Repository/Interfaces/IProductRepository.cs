@@ -5,5 +5,12 @@ namespace products.Repository.Interfaces;
 
 public interface IProductRepository
 {
-    public Task<List<Product>> GetAllProducts();
+     Task<List<Product>> GetAllProducts();
+    
+    Task<Product>? GetProductByIdAsync(int productId);
+
+    Task AddProductAsync(Product product);
+    
+    Task UpdateProductAsync(Product product);
+    Task DeleteProductAsync(int productId);
 }
