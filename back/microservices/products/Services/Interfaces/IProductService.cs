@@ -10,7 +10,7 @@ public interface IProductService
 
     public Task AddProductAsync(Product product);
 
-    public Task UpdateProductAsync(Product product);
+    public Task<Product>  UpdateProductAsync(int productId, Product product);
 
     public Task DeleteProductAsync(int productId);
 

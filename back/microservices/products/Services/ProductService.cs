@@ -49,11 +49,11 @@ public class ProductService : IProductService
         }
     }
     
-    public async Task UpdateProductAsync(Product product)
+    public async Task<Product> UpdateProductAsync(int productId, Product product)
     {
         try
         {
-            await _productRepository.UpdateProductAsync(product);
+            return await _productRepository.UpdateProductAsync(productId, product);
         }
         catch (Exception ex)
         {

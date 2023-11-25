@@ -62,4 +62,46 @@ public class ProductController : ControllerBase
             return StatusCode(500, "Internal server error");
         }
     }
+
+    [HttpPut("{productId}")]
+    public async Task<IActionResult> UpdateProduct(int productId, [FromBody] Product updatedProduct)
+    {
+        try
+        {
+            var updatedProductResult =  await _productService.UpdateProductAsync(productId, updatedProduct);
+
+            if (updatedProductResult == null) 
+            {
+                return NotFound(); // 404 si le produit n'est pas trouvé
+            }
+            
+            return Ok(updatedProductResult);
+        }
+        catch (Exception e)
+        {
+            throw new Exception("Le produit que vous cherchez n'éxiste pas", e);
+        }
+    }
+
+    [HttpDelete("{productId}")]
+    public async Task<IActionResult> DeleteProduct(int productId)
+    {
+        try
+        {
+            Product product = await _productService.GetProductById(productId);
+            
+            if (product == null)
+            {
+                return NotFound(); // 404 si le produit n'est pas trouvé
+            }
+
+            await _productService.DeleteProductAsync(productId);
+
+            return Ok("Le produit à bien été supprimé");
+        }
+        catch (Exception e)
+        {
+            throw new Exception("Le produit que vous cherchez n'éxiste pas");
+        }
+    }
 }

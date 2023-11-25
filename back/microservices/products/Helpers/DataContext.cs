@@ -1,4 +1,3 @@
-using back.microservices.products.Entities;
 using Microsoft.EntityFrameworkCore;
 using products.Models;
 

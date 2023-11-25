@@ -52,28 +52,30 @@ public class ProductRepository : IProductRepository
         }
     }
 
+    
 
-    public async Task UpdateProductAsync(Product product)
+    public async Task<Product> UpdateProductAsync(int productId, Product updatedProduct)
     {
         try
         {
-            var existingProduct = await _dataContext.Products.FindAsync(product.Id);
+            var existingProduct = await _dataContext.Products.FindAsync(productId);
 
             if (existingProduct == null)
             {
-                throw new InvalidOperationException($"Le produit à l'ID {product.Id} n'est pas trouvé.");
+                throw new InvalidOperationException($"Le produit à l'ID {productId} n'est pas trouvé.");
             }
 
-            existingProduct.Name = product.Name;
-            existingProduct.Description = product.Description;
-            existingProduct.Price = product.Price;
-            existingProduct.Category = product.Category;
-            existingProduct.Image = product.Image;
+            existingProduct.Name = updatedProduct.Name;
+            existingProduct.Description = updatedProduct.Description;
+            existingProduct.Price = updatedProduct.Price;
+            existingProduct.Category = updatedProduct.Category;
+            existingProduct.Image = updatedProduct.Image;
 
             _dataContext.Entry(existingProduct).State = EntityState.Modified;
 
             await _dataContext.SaveChangesAsync();
 
+            return existingProduct;
         }
         catch (Exception ex)
         {
