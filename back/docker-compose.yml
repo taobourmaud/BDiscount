@@ -3,6 +3,7 @@ version: '3'
 services:
   postgres: 
     image: postgres:latest
+    container_name: postgres
     ports:
       - "5432:5432"
     volumes:
@@ -11,3 +12,12 @@ services:
       POSTGRES_USER: sa
       POSTGRES_PASSWORD: Your_password123
       POSTGRES_DB: Bdiscount
+  products : 
+    build : 
+        context: ./microservices/products
+        dockerfile: Dockerfile    
+    container_name: products-api
+    ports:
+      - "8080:8080"
+    volumes:
+      - "./app:/app"
