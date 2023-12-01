@@ -1,0 +1,119 @@
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/appsettings.Development.json
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/appsettings.json
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/staticwebassets.build.json
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/staticwebassets.development.json
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/products.csproj.AssemblyReference.cache
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/products.GeneratedMSBuildEditorConfig.editorconfig
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/products.AssemblyInfoInputs.cache
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/products.AssemblyInfo.cs
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/products.csproj.CoreCompileInputs.cache
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/products.MvcApplicationPartsAssemblyInfo.cs
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/products.MvcApplicationPartsAssemblyInfo.cache
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/products.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/refint/products.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/products.pdb
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/products
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/products.deps.json
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/products.runtimeconfig.json
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/products.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/products.pdb
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/staticwebassets/msbuild.products.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/staticwebassets/msbuild.build.products.props
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.products.props
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.products.props
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/scopedcss/bundle/products.styles.css
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/products.csproj.CopyComplete
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/products.genruntimeconfig.cache
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/obj/Debug/net7.0/ref/products.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/bin/Debug/net7.0/appsettings.Development.json
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/bin/Debug/net7.0/appsettings.json
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/bin/Debug/net7.0/products
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/bin/Debug/net7.0/products.deps.json
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/bin/Debug/net7.0/products.runtimeconfig.json
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/bin/Debug/net7.0/products.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/bin/Debug/net7.0/products.pdb
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/products.csproj.AssemblyReference.cache
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/products.GeneratedMSBuildEditorConfig.editorconfig
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/products.AssemblyInfoInputs.cache
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/products.AssemblyInfo.cs
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/products.csproj.CoreCompileInputs.cache
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/products.MvcApplicationPartsAssemblyInfo.cs
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/products.MvcApplicationPartsAssemblyInfo.cache
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/staticwebassets/msbuild.products.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/staticwebassets/msbuild.build.products.props
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.products.props
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.products.props
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/staticwebassets.build.json
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/staticwebassets.development.json
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/scopedcss/bundle/products.styles.css
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/products.csproj.CopyComplete
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/products.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/refint/products.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/products.pdb
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/products.genruntimeconfig.cache
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/exemple/obj/Debug/net7.0/ref/products.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/Npgsql.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/Humanizer.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/louisteilliais/Projets dev/BDiscount/back/microservices/products/bin/Debug/net7.0/System.CodeDom.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/appsettings.Development.json
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/appsettings.json
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/products
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/products.deps.json
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/products.runtimeconfig.json
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/products.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/products.pdb
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/Humanizer.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/Microsoft.Extensions.DependencyModel.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/Microsoft.OpenApi.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/Npgsql.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/bin/Debug/net7.0/System.CodeDom.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/products.csproj.AssemblyReference.cache
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/products.GeneratedMSBuildEditorConfig.editorconfig
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/products.AssemblyInfoInputs.cache
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/products.AssemblyInfo.cs
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/products.csproj.CoreCompileInputs.cache
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/products.MvcApplicationPartsAssemblyInfo.cs
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/products.MvcApplicationPartsAssemblyInfo.cache
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/staticwebassets/msbuild.products.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/staticwebassets/msbuild.build.products.props
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.products.props
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.products.props
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/staticwebassets.pack.json
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/staticwebassets.build.json
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/staticwebassets.development.json
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/scopedcss/bundle/products.styles.css
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/products.csproj.CopyComplete
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/products.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/refint/products.dll
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/products.pdb
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/products.genruntimeconfig.cache
+/Users/louisteilliais/RiderProjects/BDiscount/back/microservices/products/obj/Debug/net7.0/ref/products.dll
