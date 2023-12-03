@@ -1,0 +1,30 @@
+.navbar {
+    background-color: #537493;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img {
+    margin-left: 1rem;
+    height: 2rem;
+}
+
+.icons {
+    margin-right: 1rem;
+
+    .account {
+        margin-left: 1rem;
+        height: 2rem;
+    }
+    .cart {
+        height: 2rem;
+    }
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
