@@ -49,7 +49,7 @@ public class BasketController : ControllerBase
         catch (Exception e)
         {
             // Handle the exception, for example, log the error.
-            throw new Exception("Le panier que vous cherchez n'éxiste pas");
+            throw new Exception("Le panier que vous cherchez n'éxiste pas", e);
         }
     }
     
