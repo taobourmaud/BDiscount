@@ -9,6 +9,8 @@ const Navbar = () => {
             <div
                 className={"icons"}
             >
+
+
                 <img className={"cart"} src={"../public/cart.svg"}/>
                 <img className={"account"} src={"../public/account.svg"}/>
             </div>

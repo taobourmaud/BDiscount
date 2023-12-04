@@ -1,0 +1,49 @@
+
+
+.card-container {
+    margin-top: 3rem;
+    margin-left: 3rem;
+    height: 20rem;
+    width: 13.5rem;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-product {
+    margin-top: 1rem;
+    display: flex;
+    height: 11.5rem;
+    width: 10rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0;
+}
+
+.product-name {
+    margin-left: 1rem;
+}
+
+.product-name:hover{
+    text-decoration: underline;
+}
+
+.product-price {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    color: #ff5916;
+    margin-top: 2rem;
+}
+
+.product-desc {
+
+    margin-left: 1rem;
+    margin-top: -1rem;
+    font-size: x-small;
+}
