@@ -4,7 +4,6 @@ using products.Services.Interfaces;
 
 namespace products.Controllers;
 
-
 [ApiController]
 [Route("api/products")]
 public class ProductController : ControllerBase

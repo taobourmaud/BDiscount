@@ -24,6 +24,16 @@ builder.Services.AddDbContext<DataContext>(options =>
     options.UseNpgsql(configuration.GetConnectionString("Default"));
 });
 
+builder.Services.AddCors(options =>
+{
+    options.AddDefaultPolicy(builder =>
+    {
+        builder.AllowAnyOrigin()
+            .AllowAnyMethod()
+            .AllowAnyHeader();
+    });
+});
+
 
 /* Services */
 builder.Services.AddScoped<IProductService, ProductService>();
@@ -40,6 +50,8 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+app.UseCors();
 
 app.UseAuthorization();
 
