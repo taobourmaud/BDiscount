@@ -28,6 +28,13 @@
       "description": "Ca pu sa mère vrm va te faire foutre",
       "price": 0,
       "category": "merde"
+    },
+    {
+      "id": 4,
+      "name": "tests",
+      "description": "tests",
+      "price": 5555,
+      "category": "erstsdf"
     }
   ]
 }
