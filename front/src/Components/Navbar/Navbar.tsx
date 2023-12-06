@@ -5,7 +5,7 @@ const Navbar = () => {
         <div
          className={"navbar"}
         >
-            <img className={"img"} src={"../public/cdiscount.svg"} alt={"logo"}/>
+            <img className={"img"} src={"/cdiscount.svg"} alt={"logo"}/>
             <div
                 className={"icons"}
             >

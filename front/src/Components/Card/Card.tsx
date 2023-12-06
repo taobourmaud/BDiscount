@@ -1,32 +1,32 @@
 
 import './Card.css'
-import muguet from '../../assets/muguet.jpeg'
-// interface ICardProps {
-//     name: string,
-//     price: number,
-//     image: string,
-// }
+interface ICardProps {
+    name: string,
+    price: number,
+    description: string,
+    image: string,
+}
 
-const Card = () => {
+const Card = ({name, description, price, image} : ICardProps) => {
 
     return (
         <div className={"card-container"}>
             <div className={"img-container"}>
-                <img className={"img-product"} src={muguet} alt={"image"}/>
+                <img className={"img-product"} src={image} alt={"image"}/>
             </div>
             <div>
                 <h3 className={"product-name"}>
-                    Muguet
+                    {name}
                 </h3>
             </div>
             <div>
                 <h4 className={"product-desc"}>
-                    Lorem Ipsum
+                    {description}
                 </h4>
             </div>
             <div>
                 <h3 className={"product-price"}>
-                    100€
+                    {price}€
                 </h3>
             </div>
         </div>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/louisteilliais/RiderProjects/BDiscount/microservices/products/products.csproj": {}
+    "/Users/louisteilliais/Projets dev/BDiscount/microservices/products/products.csproj": {}
   },
   "projects": {
-    "/Users/louisteilliais/RiderProjects/BDiscount/microservices/products/products.csproj": {
+    "/Users/louisteilliais/Projets dev/BDiscount/microservices/products/products.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/louisteilliais/RiderProjects/BDiscount/microservices/products/products.csproj",
+        "projectUniqueName": "/Users/louisteilliais/Projets dev/BDiscount/microservices/products/products.csproj",
         "projectName": "products",
-        "projectPath": "/Users/louisteilliais/RiderProjects/BDiscount/microservices/products/products.csproj",
+        "projectPath": "/Users/louisteilliais/Projets dev/BDiscount/microservices/products/products.csproj",
         "packagesPath": "/Users/louisteilliais/.nuget/packages/",
-        "outputPath": "/Users/louisteilliais/RiderProjects/BDiscount/microservices/products/obj/",
+        "outputPath": "/Users/louisteilliais/Projets dev/BDiscount/microservices/products/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/louisteilliais/.nuget/NuGet/NuGet.Config"

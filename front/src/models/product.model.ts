@@ -3,29 +3,33 @@ import Base from "./_base.model.ts";
 
 export class Product extends Base{
 
-    productId? : number
+    id : number
 
-    name?: string
+    name: string
 
-    category?: string
+    description:string
 
-    image?: string
+    category: string
 
-    price?: number
+    image: string
 
-    quantity?: number
+    price: number
+
+    quantity: number
 
     constructor({
-        productId= 0,
+        id= 0,
         name= '',
         category= '',
+        description = '',
         image= '',
         price= 0,
         quantity= 0,
         ...data
                 }) {
         super(data)
-        this.productId = productId
+        this.id = id
+        this.description = description
         this.name = name
         this.category = category
         this.image = image

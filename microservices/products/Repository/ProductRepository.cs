@@ -7,11 +7,11 @@ namespace products.Repository;
 
 public class ProductRepository : IProductRepository
 {
-     private readonly DataContext _dataContext;
+    private readonly DataContext _dataContext;
 
     public ProductRepository(DataContext dataContext)
     {
-        _dataContext = dataContext ?? throw new ArgumentNullException(nameof(dataContext));;
+        _dataContext = dataContext ?? throw new ArgumentNullException(nameof(dataContext)); ;
     }
 
     public async Task<List<Product>> GetAllProducts()
@@ -24,7 +24,7 @@ public class ProductRepository : IProductRepository
         {
             throw new Exception("Une erreur s'est produite lors de la récupération de tous les produits.", ex);
         }
-        
+
     }
 
     public async Task<Product> GetProductByIdAsync(int productId)
@@ -52,7 +52,7 @@ public class ProductRepository : IProductRepository
         }
     }
 
-    
+
 
     public async Task<Product> UpdateProductAsync(int productId, Product updatedProduct)
     {
@@ -89,8 +89,8 @@ public class ProductRepository : IProductRepository
         {
             var product = await _dataContext.Products.FindAsync(productId);
 
-            if (product ==  null)
-            {                
+            if (product == null)
+            {
                 throw new InvalidOperationException($"Le produit à l'ID {product?.Id} n'est pas trouvé.");
             }
 

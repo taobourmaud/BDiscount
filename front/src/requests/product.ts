@@ -18,3 +18,17 @@ export const getAllProducts = async ()  => {
     }
 }
 
+export const getProductById = async (id : number) => {
+    try {
+        const res = await axios.get(`${BASE_URL}/${id}`, {
+            headers : {
+                "Content-Type": "application/json",
+            }
+        })
+
+        return res.data
+        
+    }catch(error) {
+        console.error('Error fetching data:', error);
+    }
+}

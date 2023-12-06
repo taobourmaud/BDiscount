@@ -52,7 +52,7 @@ public class ProductController : ControllerBase
             {
                 return BadRequest("Product data is null");
             }
-            
+
             await _productService.AddProductAsync(product);
             return CreatedAtAction(nameof(GetProductById), new { productId = product.Id }, product);
 
@@ -60,7 +60,7 @@ public class ProductController : ControllerBase
         catch (Exception e)
         {
             // Handle the exception, for example, log the error.
-            return StatusCode(500, "Internal server error");
+            console.log(e);
         }
     }
 
@@ -69,13 +69,13 @@ public class ProductController : ControllerBase
     {
         try
         {
-            var updatedProductResult =  await _productService.UpdateProductAsync(productId, updatedProduct);
+            var updatedProductResult = await _productService.UpdateProductAsync(productId, updatedProduct);
 
-            if (updatedProductResult == null) 
+            if (updatedProductResult == null)
             {
                 return NotFound(); // 404 si le produit n'est pas trouvé
             }
-            
+
             return Ok(updatedProductResult);
         }
         catch (Exception e)
@@ -90,7 +90,7 @@ public class ProductController : ControllerBase
         try
         {
             Product product = await _productService.GetProductById(productId);
-            
+
             if (product == null)
             {
                 return NotFound(); // 404 si le produit n'est pas trouvé
@@ -102,7 +102,7 @@ public class ProductController : ControllerBase
         }
         catch (Exception e)
         {
-            throw new Exception("Le produit que vous cherchez n'éxiste pas");
+            throw new Exception("Le produit que vous cherchez n'éxiste pas", e);
         }
     }
 }
