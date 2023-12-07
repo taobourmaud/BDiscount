@@ -1,0 +1,24 @@
+# This is a generated file. Not intended for manual editing.
+version: "3"
+services:
+  products:
+    build:
+      context: "/Users/louisteilliais/RiderProjects/BDiscount2/microservices/products"
+      dockerfile: "Dockerfile"
+      target: "build"
+    command: []
+    entrypoint:
+    - "dotnet"
+    - "/app-1/bin/Debug/net7.0/products.dll"
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Development"
+      DOTNET_USE_POLLING_FILE_WATCHER: "true"
+      NUGET_PACKAGES: "/Users/louisteilliais/.nuget/packages"
+      NUGET_FALLBACK_PACKAGES: "/Users/louisteilliais/.nuget/packages"
+    image: "products:dev"
+    ports: []
+    volumes:
+    - "/Users/louisteilliais/.nuget/packages:/root/.nuget/fallbackpackages"
+    - "/Users/louisteilliais/RiderProjects/BDiscount2/microservices/products:/app-1:rw"
+    - "/Users/louisteilliais/RiderProjects/BDiscount2:/src:rw"
+    working_dir: "/app-1"

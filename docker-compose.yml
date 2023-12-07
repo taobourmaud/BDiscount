@@ -1,15 +1,47 @@
-version: '3.9'
+version: '3'
 
 services:
   postgres:
-    image: postgres:15
+    image: postgres:latest
+    container_name: postgres
     ports:
-      - 5432:5432
+      - "5432:5432"
     volumes:
-      - ~/apps/postgres:/var/lib/postgresql/data
+      - ./postgres-data:/var/lib/postgresql/data
     environment:
-      - POSTGRES_PASSWORD=azertyAZERTY123*
-      - POSTGRES_USER=postgres
-      - POSTGRES_DB=test
-volumes:
-  postgres:
+      POSTGRES_USER: sa
+      POSTGRES_PASSWORD: Your_password123
+      POSTGRES_DB: Bdiscount
+
+  # front-shop-bdiscount:
+  #  image: node:alpine
+  #  container_name: front-shop-bdiscount
+  #  entrypoint: /bin/sh
+  #  ports:
+  #    - 8000:8000
+  #  working_dir: /srv/app
+  #  volumes:
+  #    - type: bind
+  #      source: ./
+  #      target: /srv/app
+  #  tty: true
+      
+  # products:
+  #   build:
+  #     context: ./microservices/products
+  #     dockerfile: Dockerfile
+  #   container_name: products-api
+  #   ports:
+  #     - "5001:5001"
+  #   volumes:
+  #     - "./app:/app"
+  
+  # baskets: 
+  #   build: 
+  #     context: ./microservices/baskets
+  #     dockerfile: Dockerfile
+  #   container_name: baskets-api
+  #   ports:
+  #     - "5002:5002"
+  #   volumes:
+  #     - "./app:/app"
