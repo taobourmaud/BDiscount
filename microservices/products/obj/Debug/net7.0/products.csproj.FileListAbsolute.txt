@@ -127,3 +127,14 @@
 /Users/louisteilliais/Projets dev/BDiscount/microservices/products/obj/Debug/net7.0/products.pdb
 /Users/louisteilliais/Projets dev/BDiscount/microservices/products/obj/Debug/net7.0/products.genruntimeconfig.cache
 /Users/louisteilliais/Projets dev/BDiscount/microservices/products/obj/Debug/net7.0/ref/products.dll
+/mnt/c/Users/tbourmaud/Documents/99_Ynov/BDiscount/microservices/products/obj/Debug/net7.0/products.csproj.AssemblyReference.cache
+/mnt/c/Users/tbourmaud/Documents/99_Ynov/BDiscount/microservices/products/obj/Debug/net7.0/products.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/Users/tbourmaud/Documents/99_Ynov/BDiscount/microservices/products/obj/Debug/net7.0/products.AssemblyInfoInputs.cache
+/mnt/c/Users/tbourmaud/Documents/99_Ynov/BDiscount/microservices/products/obj/Debug/net7.0/products.AssemblyInfo.cs
+/mnt/c/Users/tbourmaud/Documents/99_Ynov/BDiscount/microservices/products/obj/Debug/net7.0/products.csproj.CoreCompileInputs.cache
+/mnt/c/Users/tbourmaud/Documents/99_Ynov/BDiscount/microservices/products/obj/Debug/net7.0/products.MvcApplicationPartsAssemblyInfo.cs
+/mnt/c/Users/tbourmaud/Documents/99_Ynov/BDiscount/microservices/products/obj/Debug/net7.0/products.MvcApplicationPartsAssemblyInfo.cache
+/mnt/c/Users/tbourmaud/Documents/99_Ynov/BDiscount/microservices/products/obj/Debug/net7.0/products.sourcelink.json
+/mnt/c/Users/tbourmaud/Documents/99_Ynov/BDiscount/microservices/products/obj/Debug/net7.0/products.dll
+/mnt/c/Users/tbourmaud/Documents/99_Ynov/BDiscount/microservices/products/obj/Debug/net7.0/refint/products.dll
+/mnt/c/Users/tbourmaud/Documents/99_Ynov/BDiscount/microservices/products/obj/Debug/net7.0/products.pdb
