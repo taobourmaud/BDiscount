@@ -37,9 +37,11 @@ builder.Services.AddCors(options =>
 
 /* Services */
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
 
 /* Repository */
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ICategoryRepository, CategoryRepository>();
 
 /* Compilation */
 var app = builder.Build();
