@@ -12,7 +12,21 @@ services:
       POSTGRES_USER: sa
       POSTGRES_PASSWORD: Your_password123
       POSTGRES_DB: Bdiscount
+
+  # front-shop-bdiscount:
+  #  image: node:alpine
+  #  container_name: front-shop-bdiscount
+  #  entrypoint: /bin/sh
+  #  ports:
+  #    - 8000:8000
+  #  working_dir: /srv/app
+  #  volumes:
+  #    - type: bind
+  #      source: ./
+  #      target: /srv/app
+  #  tty: true
       
+<<<<<<< HEAD
 #  products:
 #    build:
 #      context: ./microservices/products
@@ -32,3 +46,24 @@ services:
 #      - "5002:5002"
 #    volumes:
 #      - "./app:/app"
+=======
+  # products:
+  #   build:
+  #     context: ./microservices/products
+  #     dockerfile: Dockerfile
+  #   container_name: products-api
+  #   ports:
+  #     - "5001:5001"
+  #   volumes:
+  #     - "./app:/app"
+  
+  # baskets: 
+  #   build: 
+  #     context: ./microservices/baskets
+  #     dockerfile: Dockerfile
+  #   container_name: baskets-api
+  #   ports:
+  #     - "5002:5002"
+  #   volumes:
+  #     - "./app:/app"
+>>>>>>> c7cfe50864434e5d3fb53290e9150e438bac1d25

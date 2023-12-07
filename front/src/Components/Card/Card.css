@@ -1,12 +1,11 @@
-
-
 .card-container {
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-left: 3rem;
     height: 20rem;
     width: 13.5rem;
     border-radius: 5px;
     background-color: white;
+    margin-bottom: 1rem;
 }
 
 .img-container {
@@ -26,6 +25,7 @@
 }
 
 .product-name {
+    margin-top: 0.5rem;
     margin-left: 1rem;
 }
 
@@ -42,8 +42,7 @@
 }
 
 .product-desc {
-
     margin-left: 1rem;
-    margin-top: -1rem;
+    /* margin-top: -0.1rem; */
     font-size: x-small;
 }
