@@ -24,7 +24,8 @@ public class ProductEntity : BaseEntity
     public string? Image { get; set; }
 
     [Column(name: "category")]
-    public string? Category { get; set; }
-
+    public int CategoryId { get; set; }
+    public CategoryEntity Category { get; set; }
+    
     public ProductEntity() : base(DateTime.Now, DateTime.Now) { }
 }

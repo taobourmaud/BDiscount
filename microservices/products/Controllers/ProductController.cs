@@ -60,7 +60,7 @@ public class ProductController : ControllerBase
         catch (Exception e)
         {
             // Handle the exception, for example, log the error.
-            console.log(e);
+            throw new Exception("Le produit que vous cherchez n'éxiste pas", e);
         }
     }
 

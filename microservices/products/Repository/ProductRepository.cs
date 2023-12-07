@@ -68,7 +68,7 @@ public class ProductRepository : IProductRepository
             existingProduct.Name = updatedProduct.Name;
             existingProduct.Description = updatedProduct.Description;
             existingProduct.Price = updatedProduct.Price;
-            existingProduct.Category = updatedProduct.Category;
+            existingProduct.CategoryId = updatedProduct.CategoryId;
             existingProduct.Image = updatedProduct.Image;
 
             _dataContext.Entry(existingProduct).State = EntityState.Modified;
