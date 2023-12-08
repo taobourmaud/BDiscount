@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "HMEGdLtO/R2JmMVM6kfMFUUbKd9INlPlDeAFRdIfWJ7+aF5pqSVkKOseJlKHx0tGZNEoNr2w8Wdquig8tW+Xng==",
   "success": true,
   "projectFilePath": "C:\\Users\\tbourmaud\\Documents\\99_Ynov\\BDiscount\\microservices\\products\\products.csproj",
+=======
+  "dgSpecHash": "NQJUoNDxAbMFKhbPM/xaX6qJFCvjHF/yzxYQPSlbIFy+vZlDy2vWMAA89MuwmoT7kFbJZRApn1/YNUDeuy4EkQ==",
+  "success": true,
+  "projectFilePath": "/Users/louisteilliais/Projets dev/BDiscount/microservices/products/products.csproj",
+>>>>>>> 41071ef (front perdu)
   "expectedPackageFiles": [
     "C:\\Users\\tbourmaud\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\tbourmaud\\.nuget\\packages\\microsoft.aspnetcore.cors\\2.2.0\\microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",

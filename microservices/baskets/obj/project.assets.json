@@ -1674,11 +1674,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/louisteilliais/RiderProjects/BDiscount/microservices/baskets/baskets.csproj",
+      "projectUniqueName": "/Users/louisteilliais/Projets dev/BDiscount/microservices/baskets/baskets.csproj",
       "projectName": "baskets",
-      "projectPath": "/Users/louisteilliais/RiderProjects/BDiscount/microservices/baskets/baskets.csproj",
+      "projectPath": "/Users/louisteilliais/Projets dev/BDiscount/microservices/baskets/baskets.csproj",
       "packagesPath": "/Users/louisteilliais/.nuget/packages/",
-      "outputPath": "/Users/louisteilliais/RiderProjects/BDiscount/microservices/baskets/obj/",
+      "outputPath": "/Users/louisteilliais/Projets dev/BDiscount/microservices/baskets/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/louisteilliais/.nuget/NuGet/NuGet.Config"

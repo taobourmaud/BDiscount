@@ -1711,11 +1711,19 @@
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\tbourmaud\\Documents\\99_Ynov\\BDiscount\\microservices\\products\\products.csproj",
       "projectName": "products",
       "projectPath": "C:\\Users\\tbourmaud\\Documents\\99_Ynov\\BDiscount\\microservices\\products\\products.csproj",
       "packagesPath": "C:\\Users\\tbourmaud\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\tbourmaud\\Documents\\99_Ynov\\BDiscount\\microservices\\products\\obj\\",
+=======
+      "projectUniqueName": "/Users/louisteilliais/Projets dev/BDiscount/microservices/products/products.csproj",
+      "projectName": "products",
+      "projectPath": "/Users/louisteilliais/Projets dev/BDiscount/microservices/products/products.csproj",
+      "packagesPath": "/Users/louisteilliais/.nuget/packages/",
+      "outputPath": "/Users/louisteilliais/Projets dev/BDiscount/microservices/products/obj/",
+>>>>>>> 41071ef (front perdu)
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\tbourmaud\\AppData\\Roaming\\NuGet\\NuGet.Config"
