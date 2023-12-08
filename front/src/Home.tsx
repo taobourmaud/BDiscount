@@ -5,8 +5,6 @@ import React, {useEffect, useState} from "react";
 import {Product} from "./models/product.model.ts";
 import Card from "./components/Card/Card.tsx";
 import noImage from '../src/assets/no_image.png'
-import { Link } from 'react-router-dom';
-//import iphone from '../src/assets/iphone.jpg'
 
 const Home  = () => {
 
@@ -27,15 +25,8 @@ const Home  = () => {
         fetchDataAndSetState();
     }, []);
 
-    // // const getProductId = (productId: number) : number => {
-    // //     return productId
-    // // }
-
-    // console.log(productId)
-
     return (
         <>
-            <Navbar></Navbar>
             <div
                 className={"container"}
             >

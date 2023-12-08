@@ -2,7 +2,8 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router"
 import { getProductById } from "../requests/product";
 import { Product } from "../models/product.model";
-import Navbar from "../components/Navbar/Navbar";
+import "./styles/ProductPage.css"
+import { addToBasket } from "../requests/basket";
 
 
 
@@ -30,8 +31,30 @@ const ProductPage = () => {
 
     return (
         <>
-            <Navbar></Navbar>
-            <div>Hello</div>
+            <div className="container-div">
+                <div className={"container-product"}>
+                    <div className={"container-img"}>
+                        <img className="product-img" src={product?.image}></img>
+                    </div>
+                    <h3>
+                        {product?.name}
+                    </h3>
+                    <h4>
+                        {product?.description}
+                    </h4>
+                    <h4 className={"price"}>
+                        Prix : {product?.price}€
+                    </h4>
+
+                    <div className={"container-button"}>
+                        <button
+                            onClick={() => addToBasket(1, productId, 10)}
+                        >
+                            Ajouter au panier
+                        </button>
+                    </div>
+                </div>
+            </div>
         </>
     )
 
