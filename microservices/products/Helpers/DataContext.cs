@@ -17,7 +17,7 @@ public class DataContext : DbContext
             .HasForeignKey(p => p.CategoryId);
 
         // modelBuilder.Entity<Product>().Property(p => p.Id).ValueGeneratedOnAdd(); 
-        // modelBuilder.Entity<Category>().Property(c => c.Id).ValueGeneratedOnAdd(); 
+        modelBuilder.Entity<Category>().Property(c => c.Id).ValueGeneratedOnAdd(); 
     }
     
     public DataContext(IConfiguration configuration)
