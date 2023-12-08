@@ -1,4 +1,7 @@
 import { List, Datagrid, TextField, NumberField, DeleteButton, Create, SimpleForm, TextInput, NumberInput, Edit, ImageField, ImageInput } from 'react-admin';
+// import  { Product } from "../../../src/models/product.model";
+// import { useEffect, useState } from "react";
+// import { CreateProduct } from "../../../src/requests/product";
 
 export const ProductList = () => {
     return (
@@ -9,7 +12,7 @@ export const ProductList = () => {
               <TextField source="description" />
               <NumberField source="price" />
               <ImageField source="image" />
-              <TextField source="category" />
+              <NumberField source="category" />
               <DeleteButton />
             </Datagrid>
         </List>
@@ -25,7 +28,7 @@ export const ProductEdit = () => {
                 <TextInput source="description" />
                 <NumberInput source="price" />
                 <ImageInput source="image" />
-                <TextInput source="category" />
+                <NumberInput source="category" />
             </SimpleForm>
         </Edit>
     )
@@ -40,7 +43,7 @@ export const ProductCreate = () => {
                 <TextInput source="description" />
                 <NumberInput source="price" />
                 <ImageInput source="image" />
-                <TextInput source="category" />
+                <NumberInput source="category" />
             </SimpleForm>
         </Create>
     )
