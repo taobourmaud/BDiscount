@@ -4,8 +4,11 @@ COPY *.csproj ./
 RUN dotnet restore
 COPY . ./
 RUN dotnet publish -c Release -o out
+EXPOSE 5010/tcp
+
+ENV ASPNETCORE_URLS http://*:5010
 
 FROM mcr.microsoft.com/dotnet/aspnet:7.0
 WORKDIR /app
 COPY --from=build /app/out .
-CMD ["dotnet", "products.dll"]
+ENTRYPOINT ["dotnet", "products.dll"]
