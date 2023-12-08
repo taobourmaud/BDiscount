@@ -7,7 +7,6 @@ namespace products.Entities;
 public class ProductEntity : BaseEntity
 {
     [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     [Column(name: "product_id")]
     public int ProductId { get; set; }
 
@@ -23,8 +22,9 @@ public class ProductEntity : BaseEntity
     [Column(name: "image")]
     public string? Image { get; set; }
 
-    [Column(name: "category")]
-    public int CategoryId { get; set; }
+    [Column(name: "category_id")]
+    public Guid CategoryId { get; set; }
+    
     public CategoryEntity Category { get; set; }
     
     public ProductEntity() : base(DateTime.Now, DateTime.Now) { }

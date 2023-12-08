@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using products.Dto;
 using products.Models;
 using products.Services.Interfaces;
 
@@ -28,13 +29,22 @@ public class ProductController : ControllerBase
         try
         {
             var product = await _productService.GetProductById(productId);
-
+            
             if (product == null)
             {
                 return NotFound(); // 404 si le produit n'est pas trouvé
             }
 
-            return Ok(product);
+            var productDto = new ProductDto
+            {
+                Name = product.Name,
+                Description = product.Description,
+                Image = product.Image,
+                CategoryId = product.CategoryId,
+                Price = product.Price,
+            };
+
+            return Ok(productDto);
 
         }
         catch (Exception e)
@@ -46,6 +56,8 @@ public class ProductController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> CreateProduct([FromBody] Product product)
     {
+        //var product = productDto
+        
         try
         {
             if (product == null)

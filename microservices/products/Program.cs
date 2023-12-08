@@ -21,7 +21,7 @@ IConfiguration configuration = new ConfigurationBuilder()
 
 builder.Services.AddDbContext<DataContext>(options =>
 {
-    options.UseNpgsql(configuration.GetConnectionString("Default"));
+    options.UseNpgsql(configuration.GetConnectionString("Api-Products"));
 });
 
 builder.Services.AddCors(options =>

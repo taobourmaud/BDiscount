@@ -8,7 +8,6 @@ namespace products.Entities;
 public class CategoryEntity : BaseEntity
 {
     [Key]
-    [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
     [Column(name: "category_id")]
     public int CategoryId { get; set; }
     
