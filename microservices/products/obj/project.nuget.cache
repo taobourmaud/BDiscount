@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Oqi6EHyrbCbETIofje+/s5FfkYlq5pAG/vSIWCBR/MECMJqELlcXv0KTLQb7xjCQ55Jv1vc96p+SQoU67knvQw==",
+  "dgSpecHash": "NQJUoNDxAbMFKhbPM/xaX6qJFCvjHF/yzxYQPSlbIFy+vZlDy2vWMAA89MuwmoT7kFbJZRApn1/YNUDeuy4EkQ==",
   "success": true,
-  "projectFilePath": "/Users/louisteilliais/RiderProjects/BDiscount/microservices/products/products.csproj",
+  "projectFilePath": "/Users/louisteilliais/Projets dev/BDiscount/microservices/products/products.csproj",
   "expectedPackageFiles": [
     "/Users/louisteilliais/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/louisteilliais/.nuget/packages/microsoft.aspnetcore.cors/2.2.0/microsoft.aspnetcore.cors.2.2.0.nupkg.sha512",
