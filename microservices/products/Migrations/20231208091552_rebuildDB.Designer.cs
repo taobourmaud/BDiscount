@@ -12,7 +12,7 @@ using products.Helpers;
 namespace products.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20231207181740_rebuildDB")]
+    [Migration("20231208091552_rebuildDB")]
     partial class rebuildDB
     {
         /// <inheritdoc />
