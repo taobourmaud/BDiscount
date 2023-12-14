@@ -1,0 +1,46 @@
+.container-div {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container-product {
+    background-color: white;
+    height: 30rem;
+    width: 30rem;
+}
+
+.container-img {
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.product-img {
+    height: 10rem;
+    width: 10rem;
+}
+
+h3 {
+    margin-left: 2rem;
+}
+h4 {
+    margin-left: 2rem;
+}
+
+.price {
+    color: red;
+}
+
+.container-button {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    background-color: #537493;
+    height: 2rem;
+    border-radius: 10px;
+
+}
