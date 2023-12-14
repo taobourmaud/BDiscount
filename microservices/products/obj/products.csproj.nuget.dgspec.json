@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
-    "C:\\Users\\tbourmaud\\Documents\\99_Ynov\\BDiscount\\microservices\\products\\products.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\tbourmaud\\Documents\\99_Ynov\\BDiscount\\microservices\\products\\products.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\tbourmaud\\Documents\\99_Ynov\\BDiscount\\microservices\\products\\products.csproj",
-        "projectName": "products",
-        "projectPath": "C:\\Users\\tbourmaud\\Documents\\99_Ynov\\BDiscount\\microservices\\products\\products.csproj",
-        "packagesPath": "C:\\Users\\tbourmaud\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tbourmaud\\Documents\\99_Ynov\\BDiscount\\microservices\\products\\obj\\",
-=======
     "/Users/louisteilliais/Projets dev/BDiscount/microservices/products/products.csproj": {}
   },
   "projects": {
@@ -25,10 +12,9 @@
         "projectPath": "/Users/louisteilliais/Projets dev/BDiscount/microservices/products/products.csproj",
         "packagesPath": "/Users/louisteilliais/.nuget/packages/",
         "outputPath": "/Users/louisteilliais/Projets dev/BDiscount/microservices/products/obj/",
->>>>>>> 41071ef (front perdu)
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\tbourmaud\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/louisteilliais/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -94,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.403/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -6,7 +6,7 @@
   "scripts": {
     "server": "json-server --watch db.json --port 5000 --middlewares ./range.js",
     "admin": "npm start --prefix ../admin-panel",
-    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run admin\""
+    "dev": "concurrently \"npm run server\" \"npm run admin\""
   },
   "keywords": [],
   "author": "",

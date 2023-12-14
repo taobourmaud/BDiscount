@@ -1,11 +1,11 @@
 {
   "products": [
     {
-      "id": 1,
-      "name": "Muguet",
-      "description": "Très belle fleur",
-      "price": 5,
-      "category": 1
+      "id": 2,
+      "name": "test",
+      "description": "test de la démo",
+      "price": 10,
+      "category": 4
     }
   ]
 }
